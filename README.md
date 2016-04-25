@@ -3,9 +3,10 @@
 * API 데모 페이지 : http://b2v.historie.kr
 * 프로토 타이핑 수준으로 IPython Notebook 형태로 코드가 작성 되었습니다. 
 * 데이터 수집 : ./01-brunch data crawling.ipynb 
+ * 크롤링된 데이터 저장(sqlite) : ./resource/brunch_db.db
 * word2vec 학습 : ./02-brunch data learning by word2vec.ipynb
+ * 학습 결과 python pickle 파일 : ./resource/b2v.lastest.model, ./resource/writer.pkl
 * 추천 API(Flask) : ./brunch-recsys-flask.py
-* 크롤링된 데이터 저장(sqlite) : 
 
 ## 추천 API
 * 포멧 : http://b2v.historie.kr:1218/most_similar/{writer-id}
