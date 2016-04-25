@@ -1,4 +1,7 @@
 # Word2Vec을 이용하여 브런치 작가를 추천하는 API
+> prototype이라 주로 ipython으로 작업을 해서 코드가 지저분하네요. 
+> 코드를 보면서 설명이 필요한 부분이 있으시면 goodvc78@gmail.com 으로 메일 주세요
+
 * 브런치 추천 글 : https://brunch.co.kr/@goodvc78/7 
 * API 데모 페이지 : http://b2v.historie.kr
 * 프로토 타이핑 수준으로 IPython Notebook 형태로 코드가 작성 되었습니다. 
