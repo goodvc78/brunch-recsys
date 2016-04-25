@@ -14,3 +14,32 @@
  * most_similar (goodvc78) : http://b2v.historie.kr:1218/most_similar/goodvc78
  * most_similar (goodvc78+suyoung): http://b2v.historie.kr:1218/most_similar/goodvc78:suyoung
  * a to z (goodvc78~suyoung) : http://b2v.historie.kr:1218/most_similar/goodvc78~suyoung
+ * API Response 결과 Sample 
+<pre>
+{
+  result: 1,
+  data: [
+  {
+    followings: 17,
+    name: "cojette",
+    megazines: 2,
+    documents: 16,
+    followers: 133,
+    similarity: 0.98149174451828,
+    writerid: "cojette",
+    profile: "고매한 인격과 냉철한 지성의 초절정 카리스마 잡덕 잉여 데이터 분석가.",
+    imgsrc: "http://t1.daumcdn.net/brunch/service/guest/image/_WANm1SmXVtMD4RudCbhcWzD5F8.png"
+  },
+  {
+  followings: 5,
+  name: "이도현",
+  megazines: 4,
+  documents: 2,
+  followers: 23,
+  similarity: 0.9750361442565918,
+  writerid: "cailhuiris",
+  profile: "처음 Scala로 함수형 프로그래밍에 매료되고 지금까지 함수형 프로그래밍의 정수를 찾고 있는 개발자입니다.",
+  imgsrc: "http://t1.daumcdn.net/brunch/service/guest/image/-1AvgbIv14sYokarjnzk02iq52c.png"
+  }
+}
+</pre> 
